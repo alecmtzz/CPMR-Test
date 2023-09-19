@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "CPMR test" ] },
+    "homepage": [
+      {
+        "id": "TEst",
+        "type": "Text",
+        "label": { "en": [ "CPMR test" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "Testingtesting 123",
+        "type": "Agent",
+        "label": { "en": [ "Testing123" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 2843.0,
+        "items": [
+          {
+            "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia600509.us.archive.org/22/items/002-mpc-033022-001-02-trimmed/002MPC_033022_001_02_trimmed.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 2843.0
+                },
+                "target": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
