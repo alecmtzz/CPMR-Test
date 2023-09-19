@@ -1,5 +1,5 @@
 ---
-layout: item
+layout: aviary
 title: CPMR test
 manifest_name: cpmr-test
 permalink: cpmr-test
