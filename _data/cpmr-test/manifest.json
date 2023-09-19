@@ -23,6 +23,24 @@
         "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/canvas",
         "type": "Canvas",
         "duration": 2843.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://alecmtzz.github.io/CPMR-Test/annotations/cpmr-test-canvas-1-talking.json",
+            "label": {
+              "none": ["Talking"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://alecmtzz.github.io/CPMR-Test/annotations/cpmr-test-canvas-1-music-videos.json",
+            "label": {
+              "none": ["Music Videos"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://alecmtzz.github.io/CPMR-Test/cpmr-test/canvas-1/paintings",
